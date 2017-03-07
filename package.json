@@ -1,0 +1,36 @@
+{
+  "name": "hanger",
+  "version": "1.0.0",
+  "description": "Let them dangle",
+  "main": "dist/index.js",
+  "module": "src/main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w --sourcemap",
+    "play": "run-s build serve",
+    "serve": "http-server dist",
+    "work": "run-p dev serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barneycarroll/hanger.git"
+  },
+  "author": "Barney Carroll <barney.carroll@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barneycarroll/hanger/issues"
+  },
+  "homepage": "https://github.com/barneycarroll/hanger#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.0.2",
+    "rollup": "^0.41.4",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-sourcemaps": "^0.4.1",
+    "rollup-watch": "^3.2.2"
+  },
+  "dependencies": {
+    "mithril": "^1.0.1"
+  }
+}
