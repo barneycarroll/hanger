@@ -1,6 +1,6 @@
 # hanger
 
-A basic hangman derivative (with no loss condition!) written in Mithril. Difficult words supplied by [http://www.setgetgo.com](www.setgetgo.com)
+A basic hangman derivative (with no loss condition!) written in Mithril. Difficult words supplied by [http://www.setgetgo.com](http://www.setgetgo.com)
 
 Download:
 
